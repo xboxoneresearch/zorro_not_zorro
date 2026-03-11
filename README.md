@@ -10,3 +10,12 @@ npm run dev
 ```
 
 Open the site, then drag/drop or click the tile to open a dump file. The app looks for `sp_s.cfg` occurrences and reads a SocID byte.
+
+## Deployment
+
+To deploy to github-pages:
+
+```
+npm run build
+npx gh-pages -d dist
+```
